@@ -1,9 +1,12 @@
-@import "themes/default/variables";
+@import "lib/bootstrap/functions";
+@import "lib/bootstrap/variables";
+
+@import "themes/admin/variables";
 
 @import "lib/bootstrap/bootstrap";
 @import "lib/font-awesome/font-awesome";
 
-@import "themes/default/default";
+@import "themes/admin/admin";
 
 // Scaffolding
 // -------------------------

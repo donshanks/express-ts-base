@@ -9,6 +9,7 @@ try {
     fs.copySync('./src/public/fonts','./dist/public/fonts');
     fs.copySync('./src/public/images','./dist/public/');
     fs.copySync('./src/views','./dist/views');
+    fs.copySync('./src/env-files','./dist/env-files');
     childProcess.exec('tsc --build tsconfig.prod.json');
 
 }
